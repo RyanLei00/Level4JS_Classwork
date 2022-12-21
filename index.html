@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays/Food List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="food.css">
+</head>
+
+<body onload="initialize(); initializeArray(); initializeArrayManipulation(); initializeSplit();">
+    <!--1. Advanced Strings-->
+    <h2>Daily Log</h2>
+    <form id="logform">
+        <textarea name="loginput"></textarea>
+    </form>
+
+    <button onclick="addMessage(logFormObject.loginput.value);">
+        Add To Log
+    </button>
+
+    <hr />
+
+    <div id="logoutput">Log --</div>
+
+    <!--2. Arrays-->
+    <div id="divout"></div>
+
+    <!--3. Array Manipulation-->
+    <h1>Food List</h1>
+
+    <label>
+        Selection: <input type="text" id="foodsel" />
+    </label>
+
+    <hr />
+
+    <button onclick="addFood();">
+        Add Food
+    </button>
+
+    <button onclick="getDupeList();">
+        Find Duplicates
+    </button>
+
+    <button onclick="getDupeCount();">
+        Count Duplicates
+    </button><br />
+
+    <div>
+        Duplicate Indices: <span id="dupes"></span>
+    </div>
+
+    <div>
+        Count of Duplicates: <span id="count"></span>
+    </div>
+
+    <hr />
+
+    <div>
+        <div id="outbox"></div>
+    </div>
+
+    <!--4. Split and Splice-->
+    <h1>
+        <epan>Alchemy</span>
+    </h1>
+    <div clase="box">
+        <h2>My Organisms</n2>
+            <div id="orgs"></div>
+            <hr />
+            <form id="orgsform">
+                <input type="number" name="orgsel" />
+            </form>
+            <button onclick="selectOrganism();">Select Organisn</button>
+            <button onclick="deleteOrganism();">Delete Organisn</button>
+    </div>
+
+    <hr />
+    <p>
+        <span id="1st"></span> AND <span id="2nd"></span>
+    </p>
+
+    <link rel="stylesheet" href="alchemy.css" ; />
+    <script src="alchemy.js"></script>
+
+
+    <script src="script.js"></script>
+    <script src="utilities.js"></script>
+</body>
+
+</html>
