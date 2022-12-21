@@ -1,3 +1,9 @@
+/* Ryan Lei Level 4 JavaScript Classwork
+I learned that JavaScript has more functions when testing if strings are valid, arrays,
+array manipulation and array traversal. 
+It is a lot more complicated than Java since Java only required you to use for loops for everything related to arrays.
+*/
+
 //1. Advanced Strings //
 const INVALID_CHARS = "<>@#*";
 
